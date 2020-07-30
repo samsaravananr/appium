@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="224470" started-at="2020-07-24T11:26:09 IST" finished-at="2020-07-24T11:29:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="224470" started-at="2020-07-24T11:26:09 IST" finished-at="2020-07-24T11:29:53 IST">
+      <class name="MainTCApiDemos">
+        <test-method status="PASS" signature="apidemosfun(java.lang.String)[pri:0, instance:MainTCApiDemos@64729b1e]" name="apidemosfun" duration-ms="54961" started-at="2020-07-24T11:28:10 IST" data-provider="InputData" finished-at="2020-07-24T11:29:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apidemosfun -->
+        <test-method status="PASS" signature="apidemosfun(java.lang.String)[pri:0, instance:MainTCApiDemos@64729b1e]" name="apidemosfun" duration-ms="48409" started-at="2020-07-24T11:29:05 IST" data-provider="InputData" finished-at="2020-07-24T11:29:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saravanan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apidemosfun -->
+      </class> <!-- MainTCApiDemos -->
+      <class name="MainTC">
+        <test-method status="PASS" signature="killprocess()[pri:0, instance:MainTC@4e7dc304]" name="killprocess" is-config="true" duration-ms="3033" started-at="2020-07-24T11:26:09 IST" finished-at="2020-07-24T11:26:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killprocess -->
+        <test-method status="PASS" signature="sam()[pri:0, instance:MainTC@4e7dc304]" name="sam" duration-ms="117851" started-at="2020-07-24T11:26:12 IST" finished-at="2020-07-24T11:28:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sam -->
+      </class> <!-- MainTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
